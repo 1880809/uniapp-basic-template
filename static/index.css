@@ -1,0 +1,67 @@
+body,html,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,th,td {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html{
+}
+body {
+    line-height: 1.2;
+}
+ol,ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button{
+    border: none;
+}
+em {
+    font-style: normal;
+}
+input,textarea,button,img {
+    outline: none;
+    border: 0;
+}
+a,input,select, textarea, a:active, a:hover {
+    outline: none;
+}
+a {
+    color: #454545;
+}
+i {
+    font-style: normal;
+}
+input,
+textarea{
+    -webkit-user-select: auto !important;
+    -khtml-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    -o-user-select: auto !important;
+    user-select: auto !important;
+}
+.clear {
+    clear: both;
+}
+.fw {
+    overflow: hidden;
+}
+.dl {
+    display: block;
+}
+.dn {
+    display: none;
+}
+.cur {
+    cursor: pointer;
+}
+.wzfw {
+    text-overflow: Ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

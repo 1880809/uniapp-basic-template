@@ -381,7 +381,7 @@
 
 
 				.handle-box {
-					@include flex();
+				  display: flex;
 					margin: 0;
 
 					.see {
